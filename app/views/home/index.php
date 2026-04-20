@@ -10,7 +10,7 @@
         <div class="col-xl-12 col-lg-12">
             <div class="card shadow mb-4 border-bottom-primary border-left-primary">
                 <div class="card-body p-5 text-center">
-                    <h1 class="display-6 font-weight-bold text-primary mb-4">Sistem Analisa Clustering K-Means</h1>
+                    <h1 class="display-6 font-weight-bold text-primary mb-4">Analisa Clustering K-Means</h1>
                     <h2 class="h4 text-gray-800 mb-0">Analisis Clustering Menggunakan Metode K-means untuk mendukung keputusan produk parfum pada toko parfum R2DH</h2>
                 </div>
             </div>
