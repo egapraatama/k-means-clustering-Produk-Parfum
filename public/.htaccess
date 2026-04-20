@@ -1,0 +1,12 @@
+# Nonaktifkan MultiViews agar URL tidak ambigu
+Options -Multiviews
+
+# Aktifkan rewrite engine
+RewriteEngine On
+
+# Jika request bukan file/folder, arahkan ke index.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Rewrite URL ke index.php
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

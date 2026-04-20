@@ -1,0 +1,201 @@
+Kode,Nama Parfum,Harga Parfum,Volume Penjualan,Frekuensi Pembelian,Jenis Aroma,Rating Pelanggan
+A1,Black Orchid,360000,2,15,Fresh,Tidak Dinilai
+A2,White Musk,150000,8,15,Fresh,Bagus
+A3,Blue Ocean,230000,3,15,Woody,Bagus
+A4,Midnight Rose,350000,1,15,Fresh,Tidak Dinilai
+A5,Vanilla Sky,160000,5,15,Fresh,Tidak Dinilai
+A6,Oud Royal,400000,1,15,Woody,Bagus
+A7,Amber Night,260000,3,15,Woody,Tidak Dinilai
+A8,Fresh Breeze,390000,2,15,Woody,Bagus
+A9,Golden Sand,350000,3,15,Woody,Tidak Dinilai
+A10,Dark Desire,270000,4,15,Woody,Tidak Dinilai
+A11,Aqua Marine,260000,3,15,Fresh,Tidak Dinilai
+A12,Sweet Blossom,370000,5,15,Woody,Tidak Dinilai
+A13,Velvet Oud,200000,2,15,Woody,Bagus
+A14,Citrus Bloom,190000,5,15,Woody,Tidak Dinilai
+A15,Ocean Mist,280000,4,15,Woody,Bagus
+A16,Floral Dream,200000,3,15,Woody,Tidak Dinilai
+A17,Mystic Wood,300000,5,10,Woody,Tidak Dinilai
+A18,Pure Jasmine,350000,5,10,Fresh,Tidak Dinilai
+A19,Ice Cool,300000,3,10,Fresh,Tidak Dinilai
+A20,Lavender Touch,360000,2,10,Woody,Bagus
+A21,Rose Velvet,240000,4,10,Fresh,Bagus
+A22,Spicy Amber,270000,2,10,Woody,Tidak Dinilai
+A23,Deep Forest,340000,4,10,Woody,Tidak Dinilai
+A24,Soft Vanilla,320000,3,10,Woody,Tidak Dinilai
+A25,Exotic Musk,340000,4,10,Woody,Bagus
+A26,Lemon Zest,300000,3,10,Woody,Tidak Dinilai
+A27,Fresh Linen,320000,4,10,Woody,Bagus
+A28,Black Coffee,340000,3,5,Woody,Bagus
+A29,Night Shadow,270000,2,5,Fresh,Tidak Dinilai
+A30,Golden Vanilla,310000,3,5,Woody,Tidak Dinilai
+A31,Tropical Escape,350000,2,5,Woody,Bagus
+A32,Summer Rain,220000,3,5,Woody,Bagus
+A33,Autumn Wood,350000,4,5,Woody,Bagus
+A34,Royal Patchouli,340000,2,5,Woody,Tidak Dinilai
+A35,Crystal Blue,300000,4,10,Woody,Tidak Dinilai
+A36,White Gardenia,190000,2,10,Woody,Tidak Dinilai
+A37,Dark Leather,240000,3,10,Woody,Tidak Dinilai
+A38,Soft Powder,290000,3,10,Woody,Bagus
+A39,Clean Cotton,340000,6,10,Woody,Bagus
+A40,Sweet Peony,310000,3,10,Woody,Bagus
+A41,Wild Berry,260000,4,10,Fresh,Tidak Dinilai
+A42,Ocean Breeze,240000,6,10,Fresh,Bagus
+A43,Urban Night,330000,5,10,Fresh,Tidak Dinilai
+A44,Elegant Rose,270000,2,10,Woody,Tidak Dinilai
+A45,Smooth Sandalwood,320000,4,10,Woody,Tidak Dinilai
+A46,Amber Gold,240000,5,10,Woody,Bagus
+A47,Fresh Mint,250000,2,10,Fresh,Tidak Dinilai
+A48,Pink Blossom,310000,4,10,Woody,Bagus
+A49,Smoky Oud,270000,6,10,Fresh,Tidak Dinilai
+A50,Pure White,280000,4,10,Fresh,Tidak Dinilai
+A51,Classic Homme,210000,2,10,Woody,Tidak Dinilai
+A52,Femme Grace,150000,4,10,Woody,Tidak Dinilai
+A53,Silver Moon,210000,3,10,Woody,Tidak Dinilai
+A54,Morning Dew,250000,5,10,Woody,Bagus
+A55,Secret Love,380000,4,10,Woody,Bagus
+A56,Cool Waterfall,320000,5,10,Woody,Bagus
+A57,Intense Black,270000,3,10,Woody,Tidak Dinilai
+A58,Blooming Lily,260000,5,10,Woody,Tidak Dinilai
+A59,Soft Amber,280000,3,10,Woody,Bagus
+A60,Bright Citrus,240000,4,10,Woody,Tidak Dinilai
+A61,Vanilla Woods,250000,5,10,Woody,Tidak Dinilai
+A62,Fresh Energy,240000,2,10,Woody,Tidak Dinilai
+A63,Royal Musk,160000,3,10,Woody,Tidak Dinilai
+A64,Deep Blue,220000,5,10,Fresh,Tidak Dinilai
+A65,Sweet Candy,260000,6,10,Fresh,Tidak Dinilai
+A66,Green Tea,280000,5,10,Woody,Bagus
+A67,Night Bloom,310000,3,15,Fresh,Bagus
+A68,Desert Oud,350000,4,15,Woody,Tidak Dinilai
+A69,Crystal Rose,260000,4,15,Woody,Bagus
+A70,Ocean Pearl,250000,3,15,Fresh,Tidak Dinilai
+A71,Soft Touch,220000,6,15,Woody,Tidak Dinilai
+A72,Spicy Night,260000,5,15,Woody,Tidak Dinilai
+A73,Golden Bloom,250000,2,15,Woody,Bagus
+A74,Pure Elegance,300000,3,10,Woody,Tidak Dinilai
+A75,Ice Mountain,340000,4,10,Woody,Bagus
+A76,Wild Ocean,280000,4,10,Woody,Bagus
+A77,Sweet Romance,260000,5,10,Woody,Tidak Dinilai
+A78,White Amber,290000,2,10,Fresh,Tidak Dinilai
+A79,Dark Vanilla,210000,4,10,Woody,Bagus
+A80,Clean Fresh,300000,3,10,Fresh,Bagus
+A81,Morning Sun,340000,6,10,Woody,Bagus
+A82,Floral Kiss,370000,4,10,Woody,Tidak Dinilai
+A83,Urban Fresh,310000,3,10,Woody,Tidak Dinilai
+A84,Royal Night,340000,6,10,Woody,Tidak Dinilai
+A85,Citrus Splash,140000,2,10,Woody,Tidak Dinilai
+A86,Gentle Breeze,220000,3,10,Woody,Bagus
+A87,Velvet Rose,290000,7,10,Woody,Tidak Dinilai
+A88,Deep Sensation,320000,2,10,Fresh,Bagus
+A89,Fresh Spirit,220000,4,10,Woody,Bagus
+A90,Golden Wood,210000,3,10,Woody,Bagus
+A91,Pink Vanilla,280000,4,10,Fresh,Tidak Dinilai
+A92,Ocean Drift,310000,6,10,Fresh,Bagus
+A93,Black Intense,390000,7,10,Woody,Tidak Dinilai
+A94,White Blossom,250000,3,10,Woody,Tidak Dinilai
+A95,Sweet Desire,400000,6,10,Oriental,Tidak Dinilai
+A96,Woody Classic,350000,3,10,Woody,Bagus
+A97,Cool Breeze,280000,5,10,Woody,Bagus
+A98,Amber Soft,320000,4,10,Woody,Tidak Dinilai
+A99,Pure Fresh,310000,5,10,Fresh,Tidak Dinilai
+A100,Midnight Blue,360000,6,15,Fresh,Bagus
+A101,Tropical Bloom,180000,2,15,Woody,Bagus
+A102,Green Forest,240000,4,15,Woody,Tidak Dinilai
+A103,Elegant Musk,290000,4,15,Woody,Tidak Dinilai
+A104,Soft Floral,310000,6,15,Woody,Bagus
+A105,Spicy Wood,350000,7,15,Woody,Tidak Dinilai
+A106,Clean Energy,270000,4,15,Woody,Tidak Dinilai
+A107,Fresh Wave,280000,9,15,Fresh,Bagus
+A108,Sweet Lily,190000,1,15,Woody,Bagus
+A109,Dark Ocean,360000,7,15,Woody,Tidak Dinilai
+A110,Golden Night,210000,4,15,Woody,Bagus
+A111,Citrus Fresh,300000,5,10,Woody,Tidak Dinilai
+A112,Powder Soft,180000,3,10,Fresh,Tidak Dinilai
+A113,Royal Elegance,230000,2,10,Woody,Tidak Dinilai
+A114,Ice Ocean,290000,3,10,Woody,Bagus
+A115,Velvet Touch,300000,4,10,Woody,Tidak Dinilai
+A116,Sweet Vanilla,270000,7,10,Fresh,Bagus
+A117,Urban Style,220000,6,10,Woody,Tidak Dinilai
+A118,Deep Musk,270000,8,10,Oriental,Bagus
+A119,Fresh Garden,310000,9,10,Woody,Tidak Dinilai
+A120,Soft Rose,180000,1,10,Woody,Tidak Dinilai
+A121,Mystic Night,240000,3,10,Woody,Tidak Dinilai
+A122,White Crystal,310000,5,10,Woody,Bagus
+A123,Cool Spirit,390000,8,10,Woody,Tidak Dinilai
+A124,Golden Amber,280000,3,10,Woody,Bagus
+A125,Sweet Bloom,310000,5,10,Woody,Tidak Dinilai
+A126,Ocean Blue,310000,3,10,Woody,Bagus
+A127,Dark Wood,240000,4,10,Woody,Tidak Dinilai
+A128,Pure Musk,340000,5,10,Woody,Bagus
+A129,Floral Harmony,270000,5,10,Woody,Bagus
+A130,Fresh Morning,310000,3,10,Woody,Tidak Dinilai
+A131,Elegant Touch,250000,3,10,Fresh,Bagus
+A132,Royal Oud,310000,4,10,Fresh,Tidak Dinilai
+A133,Soft Breeze,390000,7,10,Woody,Tidak Dinilai
+A134,Citrus Garden,240000,5,10,Woody,Tidak Dinilai
+A135,Midnight Love,290000,3,10,Woody,Bagus
+A136,Clean White,320000,6,10,Fresh,Tidak Dinilai
+A137,Warm Vanilla,100000,2,10,Woody,Bagus
+A138,Fresh Aqua,170000,2,10,Woody,Bagus
+A139,Sweet Floral,180000,1,10,Woody,Tidak Dinilai
+A140,Golden Dream,230000,4,10,Woody,Tidak Dinilai
+A141,Spicy Bloom,280000,3,10,Fresh,Tidak Dinilai
+A142,Cool Night,210000,4,10,Woody,Bagus
+A143,Velvet Amber,310000,7,10,Woody,Bagus
+A144,White Soft,240000,2,10,Fresh,Tidak Dinilai
+A145,Fresh Wood,340000,4,10,Woody,Bagus
+A146,Elegant Bloom,380000,3,10,Woody,Tidak Dinilai
+A147,Deep Night,370000,6,10,Fresh,Bagus
+A148,Sweet Powder,390000,3,10,Woody,Tidak Dinilai
+A149,Ocean Fresh,260000,4,10,Woody,Bagus
+A150,Golden Rose,310000,4,10,Woody,Bagus
+A151,Wild Spirit,210000,4,10,Woody,Tidak Dinilai
+A152,Soft Jasmine,310000,7,10,Woody,Tidak Dinilai
+A153,Royal Classic,240000,2,10,Fresh,Bagus
+A154,Clean Breeze,340000,4,10,Woody,Tidak Dinilai
+A155,Fresh Bloom,380000,3,10,Woody,Tidak Dinilai
+A156,Sweet Garden,370000,6,10,Fresh,Bagus
+A157,Dark Rose,390000,3,10,Woody,Tidak Dinilai
+A158,Cool Mint,260000,4,10,Woody,Bagus
+A159,Amber Classic,310000,4,10,Woody,Tidak Dinilai
+A160,Ocean Wind,300000,3,10,Fresh,Bagus
+A161,White Musk Soft,340000,6,10,Woody,Tidak Dinilai
+A162,Golden Citrus,370000,4,10,Woody,Tidak Dinilai
+A163,Sweet Ocean,310000,3,10,Woody,Tidak Dinilai
+A164,Deep Elegance,340000,6,10,Woody,Tidak Dinilai
+A165,Fresh Day,140000,2,10,Woody,Tidak Dinilai
+A166,Soft Vanilla Musk,220000,3,10,Woody,Bagus
+A167,Night Fresh,290000,7,10,Woody,Tidak Dinilai
+A168,Royal Bloom,320000,2,10,Fresh,Bagus
+A169,Clean Cotton Soft,220000,4,10,Woody,Bagus
+A170,Sweet Amber,210000,3,10,Woody,Bagus
+A171,Ocean Light,280000,4,10,Fresh,Tidak Dinilai
+A172,Dark Sensation,310000,6,10,Fresh,Bagus
+A173,Elegant White,390000,7,10,Woody,Tidak Dinilai
+A174,Fresh Forest,250000,3,10,Woody,Tidak Dinilai
+A175,Soft Powder Rose,400000,6,10,Woody,Tidak Dinilai
+A176,Golden Oud,160000,5,10,Woody,Tidak Dinilai
+A177,Sweet Fresh,400000,1,10,Woody,Bagus
+A178,Cool Aqua,260000,3,10,Woody,Tidak Dinilai
+A179,White Rose,390000,2,10,Woody,Bagus
+A180,Deep Blue Night,350000,3,10,Woody,Bagus
+A181,Fresh Lemon,270000,4,10,Woody,Tidak Dinilai
+A182,Soft Elegance,260000,3,10,Fresh,Tidak Dinilai
+A183,Royal Fresh,370000,5,10,Woody,Bagus
+A184,Sweet Wood,200000,2,10,Woody,Bagus
+A185,Clean Ocean,190000,5,10,Woody,Tidak Dinilai
+A186,Dark Amber,280000,4,10,Woody,Bagus
+A187,Floral Soft,200000,3,10,Woody,Tidak Dinilai
+A188,Fresh Touch,300000,5,10,Woody,Tidak Dinilai
+A189,Golden Musk,350000,5,10,Woody,Bagus
+A190,Midnight Fresh,300000,3,10,Fresh,Tidak Dinilai
+A191,Sweet Harmony,360000,2,10,Fresh,Bagus
+A192,Ocean Calm,240000,4,10,Fresh,Bagus
+A193,White Vanilla,270000,2,10,Woody,Bagus
+A194,Deep Forest Oud,390000,7,10,Woody,Tidak Dinilai
+A195,Fresh Blooming,240000,5,10,Woody,Tidak Dinilai
+A196,Soft Cotton,290000,3,10,Woody,Bagus
+A197,Royal Spirit,320000,6,10,Fresh,Bagus
+A198,Sweet Night,100000,2,10,Woody,Bagus
+A199,Cool White,170000,2,10,Woody,Bagus
+A200,Elegant Ocean,180000,1,10,Woody,Bagus

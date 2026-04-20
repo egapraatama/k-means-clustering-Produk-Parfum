@@ -1,0 +1,211 @@
+/* Custom Stylesheet - SB Admin 2 Clone using Bootstrap 5 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+body {
+    background-color: #f8f9fc;
+    color: #5a5c69;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Base Wrapper */
+#wrapper {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Sidebar BASE (Mobile First Layout) */
+.sidebar {
+    width: 0;
+    min-height: 100vh;
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    background-size: cover;
+    transition: width 0.2s ease;
+    overflow: hidden !important;
+    white-space: nowrap; /* Mencegah patahan/goyangan teks saat bergeser */
+}
+.sidebar .nav-item .nav-link {
+    display: block;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    padding-left: 1.5rem;
+    font-weight: 700;
+    font-size: 0.85rem; /* Ukuran presisi font SB Admin 2 */
+    transition: all 0.2s ease-in-out; /* Transisi halus efek hover */
+    border-right: 5px solid transparent; /* BARIKADE/PENAHAN: Mencegah efek geser-goyang saat garis border asli muncul */
+    /* Mobile Touch Enhancements (Pencegah highlight biru/teks terpilih saat ditap HP) */
+    touch-action: none; 
+    user-select: none; 
+    -webkit-user-drag: none; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.sidebar .nav-item .nav-link i {
+    font-size: 0.85rem;
+    margin-right: 0.35rem; /* Agak dilebarkan sedikit icon dgn teks */
+}
+.sidebar .sidebar-heading {
+    font-size: 0.65rem !important; /* Ukuran kategori SB Admin */
+    letter-spacing: 0.05rem; /* Agar terlihat lebih lapang */
+}
+.sidebar .nav-item .nav-link:hover,
+.sidebar .nav-item .nav-link:focus,
+.sidebar .nav-item.active .nav-link {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15); /* Box tepi transparan mulus saat hover maupun aktif terpilih */
+    border-right: 5px solid #e78a19; /* MENYALA GARIS VERTIKAL (Warna Emas Anda) TANPA SEMBUNYI! */
+    font-weight: 700;
+}
+.sidebar .sidebar-brand {
+    height: 4.375rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    z-index: 1;
+    white-space: nowrap;
+}
+.sidebar .sidebar-brand .sidebar-brand-icon i {
+    font-size: 2rem;
+}
+.sidebar hr.sidebar-divider {
+    margin: 0 1rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Sidebar TOGGLED (Mobile View) */
+.sidebar.toggled {
+    width: 7rem !important; /* Lebar dari 6.5rem diperbesar agar pas dengan padding baru */
+    overflow: visible !important;
+}
+.sidebar.toggled .sidebar-brand-text {
+    display: none;
+}
+.sidebar.toggled .nav-item .nav-link {
+    text-align: center;
+    padding: 0.75rem 1rem;
+    padding-top: 1.5rem;
+}
+.sidebar.toggled .nav-item .nav-link span {
+    display: none;
+}
+.sidebar.toggled .sidebar-heading {
+    display: none;
+}
+
+/* =======================================================
+   Mekanisme Menu Cabang / Flyout Card (BERLAKU GLOBAL PC & HP)
+   ======================================================= */
+.sidebar.toggled .nav-item {
+    position: relative;
+}
+.sidebar.toggled .nav-item .nav-link {
+    justify-content: center !important;
+    padding-left: 1rem; /* Reposisi teks ke-tengah ketika sempit */
+}
+.sidebar.toggled .nav-item .nav-link i.fa-angle-down {
+    display: none !important; /* Sembunyikan panah drop-down */
+}
+/* Menimpa bug Bootstrap 5: Class .collapsing juga wajib absolut agar terbang ke kanan */
+.sidebar.toggled .nav-item .collapse,
+.sidebar.toggled .nav-item .collapsing {
+    position: absolute;
+    left: 7rem; /* Kotak dropdown melompat keluar ke sebelah kanan sejauh sidebar */
+    top: 0;
+    z-index: 10000;
+    width: 11.5rem;
+}
+.sidebar.toggled .nav-item .collapse .collapse-inner {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+    border-radius: .35rem;
+    background: #fff;
+    margin: 0 !important; /* Buang jarak margin bawaan HTML */
+}
+
+/* Sidebar RESPONSIVE (Desktop / Tablet View) */
+@media (min-width: 768px) {
+    .sidebar {
+        width: 17.5rem !important; /* Lebar desktop dijumbokan dari 14rem jadi 15.5rem */
+        overflow: visible !important;
+    }
+    .sidebar.toggled {
+        width: 7rem !important; /* Sinkronasi dgn yg diperlebar di atas */
+    }
+    
+}
+
+/* Topbar */
+.topbar {
+    height: 4.375rem;
+    background-color: #fff;
+}
+.topbar .nav-item .nav-link .img-profile {
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Content Area */
+#content-wrapper {
+    background-color: #f8f9fc;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.shadow-bottom {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+footer.sticky-footer {
+    padding: 2rem 0;
+    flex-shrink: 0;
+}
+
+/* ====== KOMPONEN KHUSUS SB ADMIN 2 ====== */
+
+/* 1. Efek Card (Kartu) khas SB Admin 2 */
+.card {
+    border: none;
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+.card .card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    font-weight: 700;
+}
+
+/* 2. Utilitas Warna & Teks Sidebar/Dashboard */
+.border-left-primary { border-left: 0.25rem solid #4e73df !important; }
+.border-left-success { border-left: 0.25rem solid #1cc88a !important; }
+.border-left-info { border-left: 0.25rem solid #36b9cc !important; }
+.border-left-warning { border-left: 0.25rem solid #f6c23e !important; }
+.border-left-danger { border-left: 0.25rem solid #e74a3b !important; }
+
+.text-xs { font-size: .7rem; }
+.text-gray-800 { color: #5a5c69 !important; }
+.text-gray-300 { color: #dddfeb !important; }
+.text-primary { color: #4e73df !important; }
+.bg-primary-custom { background-color: #4e73df !important; }
+
+/* 3. Efek Tabel SB Admin 2 */
+.table-responsive {
+    overflow-x: auto;
+}
+.table-bordered th {
+    background-color: #f8f9fc;
+    color: #4e73df;
+    font-weight: 700;
+    text-align: center;
+}
+.table-bordered td, .table-bordered th {
+    border-color: #e3e6f0;
+    vertical-align: middle;
+}
+.table-hover tbody tr:hover {
+    background-color: #eaecf4;
+}
