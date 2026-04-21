@@ -25,11 +25,11 @@ Sistem Analisis Clustering dengan metode K-Means untuk mendukung pengambilan kep
 
 📊 **Hasil Analisis Clustering:**
 
-**Total Low Demand**
-123 Parfum Kurang Diminati
+**Total C1 (Best Seller)**
+123 Parfum Banyak Diminati
 
-**Total Best Seller**
-77 Parfum Banyak Diminati
+**Total C2 (Low Demand)**
+77 Parfum Kurang Diminati
 
 Sistem K-Means akan mengelompokkan produk parfum ke dalam cluster berdasarkan karakteristik penjualan dan preferensi pelanggan, membantu manajemen mengidentifikasi produk mana yang perlu strategi pemasaran khusus.
 
