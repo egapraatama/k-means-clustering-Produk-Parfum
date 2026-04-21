@@ -25,8 +25,11 @@ Sistem Analisis Clustering dengan metode K-Means untuk mendukung pengambilan kep
 
 📊 **Hasil Analisis Clustering:**
 
-- **Cluster 1 (Best Seller)** - Parfum Kurang Diminati
-- **Cluster 2 (High Demand)** - Parfum Banyak Diminati
+**Total Low Demand**
+123 Parfum Kurang Diminati
+
+**Total Best Seller**
+77 Parfum Banyak Diminati
 
 Sistem K-Means akan mengelompokkan produk parfum ke dalam cluster berdasarkan karakteristik penjualan dan preferensi pelanggan, membantu manajemen mengidentifikasi produk mana yang perlu strategi pemasaran khusus.
 
@@ -75,64 +78,10 @@ git clone <repository-url> phpmvc-kmeans
 cd phpmvc-kmeans
 ```
 
-2. Buat database MySQL dengan nama `phpmvc`
+2. Buat database MySQL dengan nama `phpmvc-kmeans`
 
 3. Import database schema:
 ```bash
 mysql -u root phpmvc < db_kmeans.sql
 ```
 
-4. Konfigurasi database di `app/config/config.php`:
-```php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'phpmvc');
-```
-
-5. Akses aplikasi di `http://localhost/phpmvc-kmeans/public`
-
----
-
-## Usage
-
-1. **Login** dengan akun yang telah terdaftar
-2. **Upload Dataset** - Impor file CSV berisi data produk parfum
-3. **Set Kriteria** - Tentukan atribut/kriteria yang akan digunakan untuk clustering
-4. **Run K-Means** - Jalankan algoritma clustering dengan jumlah cluster yang diinginkan
-5. **Lihat Hasil** - Analisis hasil clustering dan ambil keputusan berdasarkan insights
-
----
-
-## Project Structure
-
-```
-phpmvc-kmeans/
-├── app/
-│   ├── config/          # Konfigurasi aplikasi
-│   ├── controllers/     # Controller classes
-│   ├── models/         # Model classes
-│   ├── views/          # View templates
-│   ├── core/           # Core framework files
-│   └── libraries/      # Third-party libraries (FPDF)
-├── public/
-│   ├── index.php       # Entry point
-│   ├── css/            # Stylesheets
-│   ├── js/             # JavaScript files
-│   ├── img/            # Images
-│   └── vendor/         # Front-end libraries
-├── db_kmeans.sql       # Database schema
-└── README.md           # Documentation
-```
-
----
-
-## Author
-
-*Created for Toko Parfum R2DH*
-
----
-
-## License
-
-This project is proprietary and confidential.
